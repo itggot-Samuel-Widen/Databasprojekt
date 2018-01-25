@@ -4,7 +4,5 @@ class App < Sinatra::Base
 		slim(:index)
 	end
 
-	get '/lol' do
-		slim(:lol)
-	end
+	test 3000
 end
